@@ -1,0 +1,45 @@
+name: andrea_stee
+description: Andrea Stee
+publish_to: 'none'
+version: 1.5.7+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.3
+  parallax_image: ^0.3.1+1
+  font_awesome_flutter: ^10.1.0
+  url_launcher: ^6.1.5
+  flutter_svg: ^1.1.2
+  parallax_animation: ^0.0.3
+  flutter_vector_icons: ^1.0.0
+  line_icons: ^2.0.1
+  page_transition: ^2.0.9
+  html: ^0.15.0
+  firebase_core: ^1.20.0
+  firebase_storage: ^10.3.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+
+  fonts:
+    - family: Georgia
+      fonts:
+        - asset: assets/fonts/Georgia.ttf
+
+    - family: Futura
+      fonts:
+        - asset: assets/fonts/FuturaLight.ttf
